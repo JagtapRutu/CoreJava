@@ -1,0 +1,13 @@
+package com.stringconcept;
+
+public class Conversions {
+
+	public static void main(String[] args) {
+		//stringbuilder to stringbuffer
+		StringBuilder sb = new StringBuilder();
+		System.out.println("sb-+sb.getclass");
+		
+		
+	}
+
+}

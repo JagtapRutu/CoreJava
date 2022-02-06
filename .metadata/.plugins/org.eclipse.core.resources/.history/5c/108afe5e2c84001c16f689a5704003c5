@@ -1,0 +1,37 @@
+package com.stringconcept;
+class BufferandBuilderMethod{
+	public static void MethodInsert(){
+		//it use to concat the given string
+		StringBuffer sb= new StringBuffer("ABC");
+		sb.append("XYZ");
+		System.out.println(sb);
+		StringBuilder sb1= new StringBuilder("ABC");
+		sb1.append("XYZ");
+		System.out.println(sb1);
+		
+	}
+	public static void MethodTnsert() {
+		//insert the given string at given position
+		StringBuilder sb3= new StringBuilder("pqr"); 
+		sb3.insert(1, "MNB");
+		System.out.println(sb3);
+			
+		}
+	public static void MethodReplace() {
+		StringBuffer sb4 =new StringBuffer("LKJHGF");
+		sb4.replace(2, 5, "QWERTY");
+		
+	}
+	}
+
+public class StringBufferAndBuilderMethod {
+
+	public static void main(String[] args) {
+		
+		BufferandBuilderMethod.Methodappend();
+		BufferandBuilderMethod.MethodInsert();
+		BufferandBuilderMethod.MethodReplace();
+
+	}
+
+}

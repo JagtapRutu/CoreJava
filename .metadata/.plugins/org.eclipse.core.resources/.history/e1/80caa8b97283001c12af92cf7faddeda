@@ -1,0 +1,69 @@
+package com.stringconcept;
+class ExampleOfTheMethod
+{
+	void StringMethod() {
+		//string charAt()==>Return a character value at given index number
+		//MethodAt();
+		//string compareTo()==> Method compare the given string with the current string in the
+		//String concat--.method combines specified string at the end of the string 
+		
+		methodcompareTo();
+		methodconcat();
+		// IF S1>S2 THEN IT RETURNS POSITIVE NUMBER--->S1 AFTER S2
+		//IF S1<S2 THEN IT RETURNS NEGATIVE NUMBER -->S2 AFTER S1
+		//IF S1==S2 THEN IT RETURNS ZERO 
+		
+		//string contains-->method searches the sequence of character in the string and return the boolean
+		methodcontains();
+		
+		//StringindexOf();
+		//method return the position of the specified char or string in specified string
+		methodindexOf();
+	}
+	private void methodindexOf() {
+		//if it is not contain it will give index=-1 if it is found then it will give specific index
+		String Name = "Rutuja Jagtap";
+		System.out.println("Stringindex "+ Name.indexOf("Jagtap"));
+		System.out.println("Stringindex "+ Name.indexOf("jagtap"));
+	}
+	private void methodcontains() {
+		// TODO Auto-generated method stub
+		String name ="RUTUJA JAGTAP";
+
+		System.out.println("Stringcontains " + Name.contains(" JAGTAP"));
+		System.out.println("Stringcontains " + Name.contains(" jAGTAP"));
+	}
+	private void methodconcat() {
+		// TODO Auto-generated method stub
+		String a= "rutu";
+	a=a.concat(" rutuja");
+	a=a.concat(" code").concat(" from ecs");
+	String b= " pointer is".concat(" 8.5");
+	a=a.concat(b);
+	System.out.println(a);
+	}
+	private void methodcompareTo() {
+		
+		String Name="RUTUJA";
+		for(int i=0;i<Name.length();i++) {
+			System.out.println("Character At Index"+i+"is"+Name.charAt(i));
+			System.out.println("character at even index");
+		if (i%2 == 0)
+			System.out.println("Character At Index"+i+"is"+Name.charAt(i));
+	}
+	}
+	private void methodcharAt() {
+		
+		
+	}
+	}
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		ExampleOfTheMethod f=new ExampleOfTheMethod();
+		f.StringMethod();
+		
+	}
+}
+

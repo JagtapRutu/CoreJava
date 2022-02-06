@@ -1,0 +1,26 @@
+package com.stringconcept;
+
+import java.util.Scanner;
+
+public class StringMethodProject {
+	
+	
+		public static void main(String[] args) {
+			
+			System.out.println("Welcome to Text Util Application:");
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter your string");
+			String a=sc.nextLine();
+			System.out.println("Enter your choice");
+			int b=sc.nextInt();
+			
+			if(b==1) {
+				System.out.println(a.toUpperCase());
+			}
+			else if(b==2) {
+				System.out.println(a.toLowerCase());
+			}
+			
+	}
+
+}

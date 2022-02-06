@@ -1,0 +1,36 @@
+package com.rutu;
+
+public class Datatype2 {
+
+	public static void main(String[] args) {
+		 
+		//Primitive Data type
+		
+		byte studentage = 20;
+		byte studentmarks = 99;
+		System.out.println(studentage  + "  " +  studentmarks);
+		
+		int a= 22;
+		System.out.println(a);
+		
+		boolean attendance = true;
+		System.out.println(attendance);
+		
+		short height =145;
+		System.out.println(height);
+		
+		float weight =99;
+		System.out.println(weight);
+		
+		long no = 123456789;
+		System.out.println(no);
+		
+		char grade = 'A';
+		System.out.println(grade);
+		
+		double stock = 134;
+		System.out.println(stock);
+		
+	}
+
+}

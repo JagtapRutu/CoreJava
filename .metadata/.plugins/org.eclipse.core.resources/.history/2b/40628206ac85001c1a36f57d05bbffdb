@@ -1,0 +1,31 @@
+package com.stringconcept;
+
+import java.util.Scanner;
+
+public class StringMethodProject {
+
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Welcome To Text Until Application");
+		System.out.println("Enter Your String");
+		
+		int num =sc.nextInt();
+		while(true) {
+		
+		System.out.println("1.Upper Case \n2.Lower Case \n3.Sentence Case \n4.Title Case \n5.Find Word \n6.Find Character \n7.Find Digit In Text \n8.Exit");
+		 
+		System.out.println("Enter Your Choice");
+		
+		int choice = sc.nextInt();
+		
+		
+		
+		
+		
+		
+		}
+		
+	}
+
+}

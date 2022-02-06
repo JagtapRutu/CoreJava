@@ -1,0 +1,22 @@
+package controlstatement;
+
+public class Leftstarpattern {
+
+	public static void main(String[] args) {
+		int num =5;
+		int row,column;
+		//this for loop is for row
+		for(row=1;row<=num;row++) {
+			for(int space =1;space<=num-row;space++) {
+				System.out.println(" ");
+				for(column=1;column<=row;column++) {
+					System.out.println(" ");
+				}
+				System.out.println();
+			}
+		}
+		
+		
+	}
+
+}

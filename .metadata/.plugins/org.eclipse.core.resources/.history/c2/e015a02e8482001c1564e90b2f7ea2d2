@@ -1,0 +1,48 @@
+
+package controlstatement;
+
+import java.util.Scanner;
+
+public class IfStatement {
+ 
+	public static void main(String[] args) {
+		
+		 //ifstatement--> when we have single condition to cheak
+		
+		int a=10;
+		int b=20;
+		if(a<b) {
+		
+			
+			System.out.println(a+ "is greter then" + b);
+			
+			System.out.println("enter the student name");
+			
+			Scanner sc= new Scanner(System.in);
+			
+			
+			
+			int studentage = sc. nextInt();
+			
+			
+			
+			if (studentage>18) {
+				
+				System.out.println("allowed in party");
+				
+				
+				
+				
+		
+							}
+			
+			
+		
+			
+			
+			
+		}
+		
+	}
+
+}

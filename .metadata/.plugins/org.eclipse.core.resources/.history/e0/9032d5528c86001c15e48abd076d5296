@@ -1,0 +1,20 @@
+package com.arrays;
+
+import java.util.Arrays;
+
+public class ArraysConcept {
+
+	public static void main(String[] args) {
+	//arrays class contains various static methods for manupulating arrays
+	//searching , soulting , listing 
+	//it uses collection framework
+	//axes element using arrays class
+		int[] a= {10,20,30,40,50,};
+		System.out.println(Arrays.toString(a));
+	//sorting array element
+		Arrays.sort(a);
+		System.out.println(Arrays.toString(a));
+
+	}
+
+}

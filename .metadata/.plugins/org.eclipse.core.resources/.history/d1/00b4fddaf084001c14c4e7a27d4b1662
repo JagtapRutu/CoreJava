@@ -1,0 +1,20 @@
+package controlstatement;
+import java.util.Scanner;
+
+
+public class armstrongno2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter the number");
+		 
+		int num=sc.next();
+		 String x= Integer.toString(num);
+		 int m=x.length();
+		 System.out.println("digits are "+ m);
+		 //
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.arrays;
+
+import java.lang.reflect.Array;
+
+public class JavaReflectionArray {
+
+	public static void main(String[] args) {
+		//java reflection class provides static methods that use to creat an axes java array in dinyamic manner
+		int size =5;
+		int[] a=(int[]) Array.newInstance(int.class, size);
+		//int.class is my component type and size is my length of array
+		Array.setInt(a, 0, 10);
+		Array.setInt(a, 1, 20);
+		Array.setInt(a, 2, 30);
+		Array.setInt(a, 3, 40);
+		Array.setInt(a, 4, 50);
+		//printing array reflection use for each
+		for (int b:a) {
+			System.out.println(b);
+			
+		}
+
+
+	}
+
+}

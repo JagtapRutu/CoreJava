@@ -1,0 +1,14 @@
+package BasicJava;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		//WRAPPER CLASS 
+		
+		int i = 10;
+		Integer in = new Integer(i);
+		System.out.println(in);
+		
+	}
+
+}

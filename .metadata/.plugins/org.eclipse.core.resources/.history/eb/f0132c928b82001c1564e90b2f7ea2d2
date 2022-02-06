@@ -1,0 +1,19 @@
+package controlstatement;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		//IF ELSE --> WE HAVE SINGLE CONDITION TO CHECK BUT IT CAN HAVE TWO POSSIBILITIES
+		int a=20;
+		int b=30;
+		 
+		if(a%b==0) {
+			System.out.println(b+ " is divisible to "+a);
+			
+		}
+		else {
+			System.out.println(b+"is not divisible by"+a);
+		}
+	}
+
+}

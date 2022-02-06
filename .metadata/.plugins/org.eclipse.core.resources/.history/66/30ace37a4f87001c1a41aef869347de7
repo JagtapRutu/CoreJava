@@ -1,0 +1,10 @@
+package Project;
+
+public class TextUtil {
+ public static String upperCase (String str) {
+	return str.toUpperCase();
+	
+	 
+ }
+
+}

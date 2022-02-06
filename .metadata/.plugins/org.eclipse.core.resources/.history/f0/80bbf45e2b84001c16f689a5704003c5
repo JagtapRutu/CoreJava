@@ -1,0 +1,22 @@
+package com.stringconcept;
+class BufferandBuilderMethod{
+	public static void Methodappend() {
+		//it use to concat the given string
+		StringBuffer sb= new StringBuffer("ABC");
+		sb.append("XYZ");
+		System.out.println(sb);
+		StringBuilder sb1= new StringBuilder("ABC");
+		sb1.append("XYZ");
+		System.out.println(sb1);
+	}
+}
+public class StringBufferAndBuilderMethod {
+
+	public static void main(String[] args) {
+		
+		BufferandBuilderMethod.Methodappend();
+		
+
+	}
+
+}

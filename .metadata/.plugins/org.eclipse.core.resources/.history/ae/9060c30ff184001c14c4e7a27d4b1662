@@ -1,0 +1,14 @@
+package com.stringconcept;
+
+public class StringTokenEx {
+
+	public static void main(String[] args) {
+		//string token as aclass allow to break string to token
+		StringToken st = new StringToken("String Token Ex");
+		while(st.hasMoretokens()) {
+			
+		}
+System.out.println(st.nextToken());
+	}
+
+	}

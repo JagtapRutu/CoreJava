@@ -1,0 +1,27 @@
+package controlstatement;
+
+import java.util.Scanner;
+
+public class IfStatement {
+
+	public static void main(String[] args) {
+		// IF STATEMENT --> IT IS USED WHEN WE HAVE SINGLE CONDITION TO CHECK
+	 int a=20; int b=10;
+	 if (a>b) {
+		 System.out.println(a+"is grrater than"+b);
+		 
+	 }
+	 Scanner sc = new Scanner(System.in);
+	 int studentage= sc.nextInt();
+	 String studentname=sc.next();
+	 if(studentage>18) {
+		 System.out.println("ENTER TH STUDENT NAME" );
+		 System.out.println("ALLOWED IN PARTY" +studentage);
+		 
+		 
+	 }
+	 
+	 
+	}
+
+}

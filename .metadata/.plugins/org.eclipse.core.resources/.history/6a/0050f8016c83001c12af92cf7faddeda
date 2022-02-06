@@ -1,0 +1,39 @@
+package com.stringconcept;
+class ExampleOfTheMethod
+{
+	void StringMethod() {
+		//string charAt()==>Return a character value at given index number
+		//MethodAt();
+		//string compareTo()==> Method compare the given string with the current string in the
+		
+		methodcompareTo();
+		
+		// IF S1>S2 THEN IT RETURNS POSITIVE NUMBER--->S1 AFTER S2
+		//IF S1<S2 THEN IT RETURNS NEGATIVE NUMBER -->S2 AFTER S1
+		//IF S1==S2 THEN IT RETURNS ZERO 
+	}
+	private void methodcompareTo() {
+		// TODO Auto-generated method stub
+		String Name="RUTUJA";
+		for(int i=0;i<Name.length();i++) {
+			System.out.println("Character At Index"+i+"is"+Name.charAt(i));
+			System.out.println("character at even index");
+		if (i%2 == 0)
+			System.out.println("Character At Index"+i+"is"+Name.charAt(i));
+	}
+	}
+	private void methodcharAt() {
+		
+		
+	}
+	}
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		ExampleOfTheMethod f=new ExampleOfTheMethod();
+		f.StringMethod();
+		
+	}
+}
+
